@@ -6,6 +6,9 @@
         <input type="text" placeholder="linha" name="linha"><br>
         <input type="text" placeholder="coluna" name="coluna">
     </fieldset>
+    <?php
+        include "tabuleiro.php";
+    ?>
 </form>
 </body>
 </html>
